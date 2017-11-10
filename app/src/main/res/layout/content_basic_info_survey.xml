@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/info_input_current_worry_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/noto_sans_bold"
+            android:gravity="center"
+            android:text="@string/biggest_my_worries"
+            android:textSize="16dp" />
+
+        <com.chamodev.infoinputexample.util.widget.FlowTagLayout
+            android:id="@+id/info_input_current_worry_ftl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/noto_sans_bold"
+            android:gravity="center"
+            android:text="@string/current_eating_habits"
+            android:textSize="16dp" />
+
+        <com.chamodev.infoinputexample.util.widget.FlowTagLayout
+            android:id="@+id/info_input_eating_habits_ftl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="72dp" />
+
+    </LinearLayout>
+
+</ScrollView>

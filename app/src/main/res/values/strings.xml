@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">InfoInputExample</string>
+
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="sat">토</string>
+    <string name="sun">일</string>
+
+    <string name="monday">월요일</string>
+    <string name="tuesday">화요일</string>
+    <string name="wednesday">수요일</string>
+    <string name="thursday">목요일</string>
+    <string name="friday">금요일</string>
+    <string name="saturday">토요일</string>
+    <string name="sunday">일요일</string>
+
+    <string-array name="day_of_week">
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+        <item>@string/sunday</item>
+    </string-array>
+
+    <string name="breakfast">아침식사</string>
+    <string name="lunch">점심식사</string>
+    <string name="dinner">저녁식사</string>
+    <string-array name="meal_name">
+        <item>@string/breakfast</item>
+        <item>@string/lunch</item>
+        <item>@string/dinner</item>
+    </string-array>
+
+    <string name="meal_time">식사 시간</string>
+    <string name="workout_time">운동 시간</string>
+
+    <string name="default_time">00:00</string>
+
+    <string name="starting_habit_molding">습관성형 여정을 시작한</string>
+    <string name="for_habit_molding">습관성형 여정을</string>
+    <string name="nice_to_meet_you">{$이름}님 반가워요!</string>
+    <string name="you_are_in_progress">진행 중인 {$이름}님!</string>
+    <string name="you_need_some_preparation">본격적인 시작에 앞서, {$이름}님의\nBEST VERSION을 만들어가기 위한\n몇 가지 준비가 필요해요!</string>
+    <string name="you_need_some_repeat"> 습관을 만들기 위해서는\n꾸준한 반복이 필요해요. BEST VERSION에\n더욱 가까워진 나를 만들어요♥</string>
+    <string name="ready_for_habit_molding">습관성형을 위한 준비가\n완료되었어요!</string>
+    <string name="ready_for_habit_molding_to_continue">습관성형을 이어가기 위한\n준비가 완료되었어요!</string>
+    <string name="way_to_go_for_month">매일의 미션을 하나하나 클리어하며\n뿌듯하고 보람찬 한달 만들어봐요!\n{$이름}님 화이팅♥</string>
+    <string name="start_with_new_mind">나만의 BEST VERSION을 찾기 위한\n여정은 이번 달도 계속됩니다!\n새로운 마음으로 시작해볼까요?</string>
+
+    <string name="preparing_for_habit_molding">습관성형 준비하기</string>
+    <string name="ongoing_for_habit_molding">습관성형 이어가기</string>
+    <string name="habit_molding_start">습관성형 시작하기</string>
+
+    <string name="basic_info_input">기본 정보 입력</string>
+    <string name="class_special_mission">클래스 특별 미션</string>
+    <string name="habit_molding_mission">도전! 습관 성형</string>
+    <string name="meal_time_alarm_setting">식사시간 알림설정</string>
+    <string name="workout_time_alarm_setting">운동시간 알림설정</string>
+    <string name="about_me">{$이름}님에 대해</string>
+    <string name="something_to_say">코치님께 하고 싶은 말</string>
+
+    <string name="choose_keywords_about_you">현재 {$이름}님에 대해 알고 싶어요!\n키워드를 각각 3개씩 선택해주세요.</string>
+    <string name="it_is_challenge_missions">기본 운동 외에 추가할 수 있는\n챌린지 미션이에요. (최대 2개 선택)</string>
+    <string name="choose_habits_you_want">이번 달 {$이름}님이 꼭 만들고 싶은\n3가지 습관을 선택해주세요.</string>
+    <string name="when_do_you_eat">"{$이름}님은 언제 식사를 하시나요?\n설정에서 식사시간을 다시 변경할 수 있어요."</string>
+    <string name="when_do_you_workout">"{$이름}님은 언제 운동을 하시나요?\n설정에서 운동시간을 다시 변경할 수 있어요."</string>
+    <string name="have_you_something_to_say">{$이름}님을 위한 맞춤 코칭이 진행될 수 있도록\n코치님께 전하고 싶은 이야기를 남겨주세요.</string>
+
+    <string name="biggest_my_worries">{$이름}의 가장 큰 고민은?</string>
+    <string name="current_eating_habits">현재 식습관은 어떤가요?</string>
+    <string name="tell_me_anything">마이다노를 신청한 이유, 이번 달 달성하고자 하는 목표, 평소 생활패턴이나 이전 다이어트 경험, 특별히 아픈 곳 등 어떤 것이든 좋아요 :)</string>
+
+    <string name="do_save">저장하기</string>
+</resources>

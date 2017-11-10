@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/about_me_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="21dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="21dp"
+        android:background="@null"
+        android:gravity="top"
+        android:textSize="15dp"
+        android:hint="@string/tell_me_anything"
+        android:imeOptions="actionDone"
+        android:lineSpacingExtra="3.5dp" />
+
+</FrameLayout>

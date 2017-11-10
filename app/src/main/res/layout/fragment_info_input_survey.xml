@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light_grey"
+    tools:context="com.chamodev.infoinputexample.survey.InfoInputSurveyFragment">
+
+    <include
+        android:id="@+id/info_input_header"
+        layout="@layout/content_info_input_header"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_input_header" />
+
+    <include
+        android:id="@+id/info_input_basic_survey"
+        layout="@layout/content_basic_info_survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_input_header"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/info_input_special_mission_survey"
+        layout="@layout/content_special_mission_survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_input_header"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/info_input_habit_mission_survey"
+        layout="@layout/content_habit_mission_survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_input_header"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/info_input_meal_time_alarm_survey"
+        layout="@layout/content_meal_time_alarm_survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_input_header"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/info_input_workout_time_alarm_survey"
+        layout="@layout/content_workout_time_alarm_survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_input_header"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/info_input_about_me_survey"
+        layout="@layout/content_about_me_survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_input_header"
+        android:visibility="gone" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/info_input_next_btn"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/icon_next"
+        app:backgroundTint="@color/primary"
+        app:elevation="3dp"
+        app:fabSize="normal" />
+
+</RelativeLayout>
