@@ -23,4 +23,5 @@ ext {
     okHttp3Version = '3.9.0'
     retrofitVersion = '2.3.0'
     gsonVersion = '2.8.0'
+    glideVersion = 'glideVersion'
 }
